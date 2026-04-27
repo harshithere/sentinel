@@ -40,3 +40,9 @@ An AI agent that helps evaluate your match for a job profile
    uvicorn main:app --reload
    ```
    You can then access the interactive API docs at [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs).
+
+   To run the Streamlit UI:
+   ```bash
+   streamlit run ui.py
+   ```
+   This will open a browser window with the user interface.

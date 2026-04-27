@@ -1,6 +1,9 @@
 import os
 from typing import Annotated, TypedDict
 
+from dotenv import load_dotenv
+load_dotenv()
+
 from langchain_core.messages import HumanMessage
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langgraph.graph import START, END, StateGraph

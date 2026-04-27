@@ -3,8 +3,8 @@ from pydantic import BaseModel
 from langchain_core.messages import HumanMessage
 import os
 
-# Import the compiled LangGraph agent from our agent.py file
-from agent import agent
+# Import the compiled LangGraph agent from our agents module
+from agents import agent
 
 # Initialize FastAPI app
 app = FastAPI(
